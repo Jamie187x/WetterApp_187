@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./Bilder/Streichbrüder.jpg);
+}
+
+.app-main {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: rgba(138, 214, 221, 0.3);
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.weather-body .location-details, .weather-body .weather-status {
+    margin-bottom: 15px;
+}
+
+.text-center{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: paleturquoise;
+    font-size: 50px;
+}
